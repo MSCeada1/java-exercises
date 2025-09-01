@@ -7,7 +7,7 @@ public class DetalleDeFactura {
 
         Scanner entrada = new Scanner(System.in);
 
-        //introduccion de datos
+        //entrada de datos
         System.out.println("Ingrese el nombe de la factura");
         String nombreFactura = entrada.nextLine();
 

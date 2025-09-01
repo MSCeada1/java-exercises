@@ -1,3 +1,5 @@
+package Mis_Ejercicios;
+
 import java.util.Scanner;
 
 public class DetalleDeFactura {

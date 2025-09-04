@@ -2,16 +2,18 @@ package Mis_Ejercicios;
 
 import java.util.Scanner;
 
+//Número par o impar: Pide un número al usuario y muestra si es par o impar.
+
 public class ParOImpar {
 
     public static void main(String[] args) {
 
-        Scanner entrada = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
 
         System.out.println("Introduce un numero");
-        double num = entrada.nextDouble();
+        int num = scanner.nextInt();
 
-        entrada.close();
+        scanner.close();
 
         String parOImpar = num % 2 == 0 ? "El numero " + num + " es par" : "El numero " + num + " es impar";
         System.out.println(parOImpar);

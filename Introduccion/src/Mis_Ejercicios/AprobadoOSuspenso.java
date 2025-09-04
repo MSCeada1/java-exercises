@@ -10,13 +10,15 @@ public class AprobadoOSuspenso {
 
         Scanner scanner = new Scanner(System.in);
 
-    }
-}
-
-/*
-System.out.println("Introduce una nota de 0 a 10");
+        System.out.println("Introduce una nota de 0 a 10");
         double nota = scanner.nextDouble();
 
-        String resultado = nota >= 5 ? "Arobado" : "Suspenso";
+        while (nota < 0 || nota > 10) {
+            System.out.println("la nota debe estar entre 0 y 10");
+            nota = scanner.nextDouble();
+        }
+
+        String resultado = nota >= 5 ? "Aprobado" : "Suspenso";
         System.out.println("resultado = " + resultado);
- */
+    }
+}

@@ -11,6 +11,8 @@ public class ParOImpar {
         System.out.println("Introduce un numero");
         double num = entrada.nextDouble();
 
+        entrada.close();
+
         String parOImpar = num % 2 == 0 ? "El numero " + num + " es par" : "El numero " + num + " es impar";
         System.out.println(parOImpar);
     }
